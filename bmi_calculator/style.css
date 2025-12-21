@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    align-items: center;
+    width: 25%;
+    background-color: #c6aefa;
+    margin: 10rem auto;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+
+label {
+    font-size: 0.8rem;
+}
+
+input, button {
+    width: 45%;
+}
+
+button {
+    background-color: rgb(114, 9, 212);
+    color: #c6aefa;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.form{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem
+    
+}
